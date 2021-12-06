@@ -1,4 +1,3 @@
-
 import './App.css';
 
 import {
@@ -12,6 +11,7 @@ import { AccessoriesHomePage } from './components/pages/AccessoriesHomePage';
 import { ShoppingCartPage } from './components/pages/ShoppingCartPage';
 import { AccessoryDetailsPage } from './components/pages/AccessoryDetailsPage';
 import { LoginPage } from './components/pages/LoginPage';
+import { NewAccessoryPage } from './components/pages/NewAccessoryPage';
 
 function App() {
   return (
@@ -30,6 +30,9 @@ function App() {
         </Route>
         <Route path="/login">
           <LoginPage />
+        </Route>
+        <Route path="/new">
+          <NewPetPage />
         </Route>
       </Switch>
     </Router>
