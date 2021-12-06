@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 import { Navbar } from './components/Navbar';
-import { SubaruHomePage } from './components/pages/SubaruHomePage';
+import { AccessoriesHomePage } from './components/pages/AccessoriesHomePage';
 import { ShoppingCartPage } from './components/pages/ShoppingCartPage';
 import { AccessoryDetailsPage } from './components/pages/AccessoryDetailsPage';
 import { LoginPage } from './components/pages/LoginPage';
@@ -20,7 +20,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/">
-          <SubaruHomePage />
+          <AccessoriesHomePage />
         </Route>
         <Route path="/cart">
            <ShoppingCartPage />

@@ -14,7 +14,7 @@ export const Navbar = () => {
                     <NavLink exact={true} activeClassName="nav-selected" to="/">Accessories</NavLink>
                 </li>
                 <li>
-                    <NavLink activeClassName="nav-selected" to="/cart"> My Cart</NavLink>
+                    <NavLink activeClassName="nav-selected" to="/cart">My Cart</NavLink>
                 </li>
             </ul>
         </nav>
