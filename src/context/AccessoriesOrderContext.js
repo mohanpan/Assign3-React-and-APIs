@@ -1,10 +1,11 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 const AccessoriesOrderContext = React.createContext({
     Accessories: [],
     order: [],
     initializeAccessories: () => {},
     addAccessoryToOrder: () => {},
+    initializeAccessories: () => {},
     removeAccessoryFromOrder: () => {},
 });
 

@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { AccessoriesOrderContextProvider } from './context/AccessoriesOrderContext';
+
+
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";

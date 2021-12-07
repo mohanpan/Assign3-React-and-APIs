@@ -22,7 +22,7 @@ export const Navbar = () => {
                     <Logout />
                 </li>
                 <li>
-                    <NavLink activeClassName="nav-selected" to="/new">Add New Accessory</NavLink>
+                    <NavLink activeClassName="nav-selected" to="/new">Add New Accessories</NavLink>
                 </li>
             </ul>
         </nav>
