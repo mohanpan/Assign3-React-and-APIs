@@ -4,34 +4,27 @@ import "./styles.css";
 import AccessoriesOrderContext from "../../../context/AccessoriesOrderContext";
 
 export const AccessoryDetailsPage = (props) => {
-    /*const {id} = useParams();
+    const {id} = useParams();
 
-    const [pet, setPet] = useState({});
+    const [Accessory, setAccessory] = useState({});
 
-    const globalState = useContext(PetsOrderContext);
+    const globalState = useContext(AccessoriesOrderContext);
 
     useEffect ( () => {
-        const pet = globalState.pets.find(
-            (pet) => pet.id.stringValue === id
+        const Accessory = globalState.Accessories.find(
+            (Accessory) => Accessory.id.stringValue === id
         );
-        setPet(pet);
+        setAccessory(Accessory);
     }, [])
 
-    if (pet) {
+    if (Accessory) {
         return (
-            <div className="pets-page">
-                <h1 className="pets-title"> {pet.name?.stringValue} </h1>
-                <img src={pet.image?.stringValue} alt="pet photo" />
+            <div className="Accessories-page">
+                <h1 className="Accessories-title"> {Accessory.name?.stringValue} </h1>
+                <img src={Accessory.image?.stringValue} alt="Accessory photo" />
             </div>
         )
     } else {
-        return <p>No pet with this id</p>
+        return <p>No accessory with this id</p>
     }
-*/
-
-    return (
-    <div className="product-details-page">
-      Product A in details
-    </div>
-  );
 }

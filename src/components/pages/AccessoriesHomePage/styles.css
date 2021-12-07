@@ -1,0 +1,16 @@
+.Accessories-page {
+    padding: 10px;
+}
+
+.Accessories-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Accessories-title {
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ddd;
+}
